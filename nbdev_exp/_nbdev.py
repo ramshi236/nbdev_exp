@@ -2,9 +2,19 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"say_hello": "000_core.ipynb"}
+index = {"say_hello": "000_core.ipynb",
+         "save_model_simple": "010_some_utility_functions.ipynb",
+         "get_dataset": "011_my_first_pipline.ipynb",
+         "get_train_data_loader": "011_my_first_pipline.ipynb",
+         "GNN": "011_my_first_pipline.ipynb",
+         "synthesize_mixing_vector": "021_HetroData_synthesize.ipynb",
+         "generate_positive_negative_data": "021_HetroData_synthesize.ipynb",
+         "get_data_list": "021_HetroData_synthesize.ipynb"}
 
-modules = ["core.py"]
+modules = ["core.py",
+           "some_utility_functions.py",
+           "my_first_pipline.py",
+           "HeteroData_synthesize.py"]
 
 doc_url = "https://ram.github.io/nbdev_exp/"
 
