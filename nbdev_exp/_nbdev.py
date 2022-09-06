@@ -9,12 +9,21 @@ index = {"say_hello": "000_core.ipynb",
          "GNN": "011_my_first_pipline.ipynb",
          "synthesize_mixing_vector": "021_HetroData_synthesize.ipynb",
          "generate_positive_negative_data": "021_HetroData_synthesize.ipynb",
-         "get_data_list": "021_HetroData_synthesize.ipynb"}
+         "get_data_list": "021_HetroData_synthesize.ipynb",
+         "SyntheticDataModule": "021_HetroData_synthesize.ipynb",
+         "HeteroGNNArch": "021_HetroData_synthesize.ipynb",
+         "RamSimpleModel": "021_HetroData_synthesize.ipynb",
+         "run_simulation": "021_HetroData_synthesize.ipynb",
+         "TASK_NAME": "031_HPsearch.ipynb",
+         "MY_PROJECT_NAME": "031_HPsearch.ipynb",
+         "my_first_task_template": "028_TaskTemplate.ipynb"}
 
 modules = ["core.py",
            "some_utility_functions.py",
            "my_first_pipline.py",
-           "HeteroData_synthesize.py"]
+           "HeteroData_synthesize.py",
+           "TaskTemplate.py",
+           "HPsearch.py"]
 
 doc_url = "https://ram.github.io/nbdev_exp/"
 
